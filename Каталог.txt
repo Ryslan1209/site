@@ -1,0 +1,1604 @@
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Каталог зеркал — формы, подсветка, фацет</title>
+  <meta name="description" content="Каталог зеркал: арка, круг, капсула, прямоугольник. Подсветка, графит/бронза, фацет. Быстрый расчет." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header" data-header>
+    <a class="logo" href="index.html" aria-label="На главную">
+      <span class="logo__mark"></span> MIRR.
+    </a>
+
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="nav__link" href="index.html">Основная</a>
+      <a class="nav__link is-active" href="catalog.html">Каталог</a>
+      <a class="nav__link" href="contacts.html">Контакты</a>
+    </nav>
+
+    <div class="header__actions">
+      <a class="btn btn--primary" href="contacts.html#form">Получить расчёт</a>
+      <button class="burger" data-burger aria-label="Открыть меню">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h1 class="h1">Каталог</h1>
+          <p class="muted">Фильтруйте по форме и опциям. Нажмите на карточку — увидите детали.</p>
+        </div>
+<div class="filters" id="filters">
+  <input class="filters__search" type="search" placeholder="Поиск по названию…" aria-label="Поиск по каталогу">
+</div>
+
+      
+
+        <div class="catalog" id="popular">
+          <article class="product reveal" data-tags="" style="transition-delay:0ms">
+  <button class="product__inner" data-product
+    data-title="Мозаика 110х73 см"
+    data-desc="Зеркало интерьерное 110 см х 73 см «Мозаика», внутр. размеры 82 см х 45 см, рама из зеркальной плитки шириной 14 см. Зеркало настенное большое с отделкой из зеркальной мозаики не останется незамеченным в интерьере вашего дома, будь то гостиная, прихожая, спальня или ванная комната. Зеркальная мозаика и зеркальная плитка пользуются большой популярностью в современном интерьере. Такой необыкновенный декор добавляет в пространство нотку роскоши, блеск помогает создать волшебную атмосферу в любой комнате и при этом, размеры зеркала позволяют использовать его и как зеркало в полный рост."
+    data-price="12998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/941b9e99-553a-4263-8f24-e6a6347db45e.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/941b9e99-553a-4263-8f24-e6a6347db45e.jpg" alt="Мозаика 110х73 см" />
+    <div class="product__meta">
+      <h3 class="h3">Мозаика 110х73 см</h3>
+      <p class="muted">Зеркальная мозаика</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">12998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:40ms">
+  <button class="product__inner" data-product
+    data-title="Объемное панно «Ступени» 20х75 (2шт)"
+    data-desc="Панно на стену «3 D», размером 20*75 см — 2 шт, цельное на основе из МДФ . Не требует дополнительной сборки. МОНТАЖ осуществляется на клей, имеющий адгезию к МДФ и материалу стены. Произведено из качественного влагостойкого материала. Панно на стену для интерьера визуально увеличивает помещение раздвигая пространство, отлично дополнит интерьер гостиной, дополнит эстетику."
+    data-price="4499,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/9c48c77c-db71-4e1d-a917-01a16ded4ad2.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/9c48c77c-db71-4e1d-a917-01a16ded4ad2.jpg" alt="Объемное панно «Ступени» 20х75 (2шт)" />
+    <div class="product__meta">
+      <h3 class="h3">Объемное панно «Ступени» 20х75 (2шт)</h3>
+      <p class="muted">ЗD зеркала</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">4499,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:80ms">
+  <button class="product__inner" data-product
+    data-title="Подставка ⌀ 21 см"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="2499,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/45e59c07-8ad4-4554-b6d6-9407ba8a55b3.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/45e59c07-8ad4-4554-b6d6-9407ba8a55b3.jpg" alt="Подставка ⌀ 21 см" />
+    <div class="product__meta">
+      <h3 class="h3">Подставка ⌀ 21 см</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">2499,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:120ms">
+  <button class="product__inner" data-product
+    data-title="Подставка ⌀ 41 см"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="3499,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/b3d54900-f879-4583-80ab-f236792d10cf.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/b3d54900-f879-4583-80ab-f236792d10cf.jpg" alt="Подставка ⌀ 41 см" />
+    <div class="product__meta">
+      <h3 class="h3">Подставка ⌀ 41 см</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">3499,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:160ms">
+  <button class="product__inner" data-product
+    data-title="Подставка ⌀ 61 см"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="4499,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/b97dc673-da14-49bd-8009-29dcf11e3069.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/b97dc673-da14-49bd-8009-29dcf11e3069.jpg" alt="Подставка ⌀ 61 см" />
+    <div class="product__meta">
+      <h3 class="h3">Подставка ⌀ 61 см</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">4499,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:200ms">
+  <button class="product__inner" data-product
+    data-title="Полка «Angolare»"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="3199,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/fcbcb1e1-9ab9-4276-a47e-ab7dc34ce49e.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/fcbcb1e1-9ab9-4276-a47e-ab7dc34ce49e.jpg" alt="Полка «Angolare»" />
+    <div class="product__meta">
+      <h3 class="h3">Полка «Angolare»</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">3199,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:240ms">
+  <button class="product__inner" data-product
+    data-title="Полка золотая «Angolare»"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="3199,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/97afd6c9-1873-4a75-bf62-5fa63b77b179.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/97afd6c9-1873-4a75-bf62-5fa63b77b179.jpg" alt="Полка золотая «Angolare»" />
+    <div class="product__meta">
+      <h3 class="h3">Полка золотая «Angolare»</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">3199,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Полка золотая «Mese»"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="4499,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/1c36fd67-3931-425c-8148-22f4b2bbe14d.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/1c36fd67-3931-425c-8148-22f4b2bbe14d.jpg" alt="Полка золотая «Mese»" />
+    <div class="product__meta">
+      <h3 class="h3">Полка золотая «Mese»</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">4499,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Полка золотая «Mese»"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="4499,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/40bea050-5ebe-49bc-b5f5-4165e44ee217.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/40bea050-5ebe-49bc-b5f5-4165e44ee217.jpg" alt="Полка золотая «Mese»" />
+    <div class="product__meta">
+      <h3 class="h3">Полка золотая «Mese»</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">4499,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Полка-подсвечник"
+    data-desc="Настенная навесная полка — отличный способ организовать пространство и придать вашему дому уют и стиль. Интерьерный атрибут, зеркальный декор станет незаменимой вещью в современном или классическом дизайне в вашей спальне над кроватью, можно использовать как консоль подвесную маленькую, тумбу подвесную или как туалетный столик подвесной. Зеркальная полочка украсит не только гостиную, идеально подойдет в зал. Интерьерная полка станет прекрасным вариантом для прихожей или коридора."
+    data-price="8899,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/6a12549f-3e95-4caa-8626-b08d8666ef0c.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/6a12549f-3e95-4caa-8626-b08d8666ef0c.jpg" alt="Полка-подсвечник" />
+    <div class="product__meta">
+      <h3 class="h3">Полка-подсвечник</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">8899,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Прованс 110х72 см"
+    data-desc="Зеркало интерьерное 110 см х 72 см «Прованс», внутр. размеры 52,4 см х 90,4 см, рама из зеркальной плитки шириной 9,8 см. Зеркало настенное большое с отделкой из зеркальной мозаики ручной работы не останется незамеченным в интерьере вашего дома, будь то гостиная, прихожая, спальня или ванная комната. Зеркальная мозаика и зеркальная плитка пользуются большой популярностью в современном интерьере."
+    data-price="10498,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/aee18f21-eef4-4654-bdf4-7c433edd13f8.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/aee18f21-eef4-4654-bdf4-7c433edd13f8.jpg" alt="Прованс 110х72 см" />
+    <div class="product__meta">
+      <h3 class="h3">Прованс 110х72 см</h3>
+      <p class="muted">Зеркальная мозаика</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">10498,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Элегант 110х60 см"
+    data-desc="Это настенное панно будет идеальным акцентом в любой комнате. Оно добавит нотку изящества и стиля в ваш интерьер. А благодаря своим грандиозным размерам — 110*60см — оно привлечет всеобщее внимание.Используй это зеркало как элемент декора для прихожей или гостинной."
+    data-price="10998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/311d2b55-1e41-4564-a99e-b586f63789b5.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/311d2b55-1e41-4564-a99e-b586f63789b5.jpg" alt="Элегант 110х60 см" />
+    <div class="product__meta">
+      <h3 class="h3">Элегант 110х60 см</h3>
+      <p class="muted">Зеркальная мозаика</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">10998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Аура  Ø 70 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="7748,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/71e234bf-e6ff-4af1-9d6b-20444be17019.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/71e234bf-e6ff-4af1-9d6b-20444be17019.jpg" alt="Аура  Ø 70 см" />
+    <div class="product__meta">
+      <h3 class="h3">Аура  Ø 70 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">7748,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Журнальный столик"
+    data-desc="Плавные линии основания и безупречная гладкость зеркальной столешницы формируют лаконичный, но выразительный силуэт. В зависимости от угла зрения и освещения столик каждый раз раскрывается по‑новому: в утренних лучах он мягко мерцает, вечером — ловит отблески ламп, превращая обыденный предмет мебели в своеобразный художественный объект."
+    data-price="17549,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/dd6aa434-f068-48f7-8103-28572db59466.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/dd6aa434-f068-48f7-8103-28572db59466.jpg" alt="Журнальный столик" />
+    <div class="product__meta">
+      <h3 class="h3">Журнальный столик</h3>
+      <p class="muted">Зеркальная мебель</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">17549,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Боско 70х90 см"
+    data-desc="Все интерьерные зеркала нашего бренда имеют отличительную черту — оригинальная форма и современный дизайн, а также отлично дополнят интерьер в любом стиле: современный, классический, лофт, винтаж, сканди. Также они собраны вручную из самых качественных материалов. Декоративное большое зеркало станет центром притяжения в оформлении дома, благодаря оригинальной раме из зеркальных элементов."
+    data-price="8849,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/a363a0e7-9e37-43fe-89b1-07cfedf522f2.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/a363a0e7-9e37-43fe-89b1-07cfedf522f2.jpg" alt="Боско 70х90 см" />
+    <div class="product__meta">
+      <h3 class="h3">Боско 70х90 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">8849,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Трюмо 117х90"
+    data-desc="Трельяж — трехстворчатое зеркало, это прекрасное изобретение для модниц и всех, кто привык следить за своим внешним видом. Такое настенное зеркало с нехитрой конструкцией позволяет человеку рассмотреть себя со всех сторон."
+    data-price="14998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/3903c3d4-7c60-447b-bf16-9ef62aa1dbea.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/3903c3d4-7c60-447b-bf16-9ef62aa1dbea.jpg" alt="Трюмо 117х90" />
+    <div class="product__meta">
+      <h3 class="h3">Трюмо 117х90</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">14998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Эдем 110х60 см"
+    data-desc="Прямоугольное зеркало «Эдем» с имитацией рамы. Зеркало в раме из зеркальных элементов бронзового цвета. Внешний размер зеркала 60 см х 110 см, центральная часть — 90 см на 40 см. Если вы в поисках аккуратного и эстетичного зеркала в прихожую, то приглядитесь к этому прекрасному экземпляру. Зеркало настенное изготовлено из качественных, практичных материалов, и при этом выглядит стильно и изысканно."
+    data-price="7998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/a8a74016-6907-484e-8b02-bad1b890255a.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/a8a74016-6907-484e-8b02-bad1b890255a.jpg" alt="Эдем 110х60 см" />
+    <div class="product__meta">
+      <h3 class="h3">Эдем 110х60 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">7998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Симфония 102х66"
+    data-desc="Зеркало интерьерное «Симфония» размером 65 на 104 см с объемной рамой из стекла черного цвета. Объемная рама с эффектом оптической иллюзии движения зеркала олицетворяет гармонию и баланс, благодаря своей сложной и изысканной форме. Ее глубина создает ощущение пространства и усиливает визуальный эффект, делая зеркало в черной раме величественным и притягательным."
+    data-price="8998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/4d5b7813-742a-42c7-a2b6-be8a776cda4e.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/4d5b7813-742a-42c7-a2b6-be8a776cda4e.jpg" alt="Симфония 102х66" />
+    <div class="product__meta">
+      <h3 class="h3">Симфония 102х66</h3>
+      <p class="muted">ЗD зеркала</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">8998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Аура 80 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="8289,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/1fbe2808-0dcd-4f99-a5d4-18107b0d5413.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/1fbe2808-0dcd-4f99-a5d4-18107b0d5413.jpg" alt="Аура 80 см" />
+    <div class="product__meta">
+      <h3 class="h3">Аура 80 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">8289,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Аура 90 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="8289,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/0a65d49e-88a7-46e0-a539-6e636a97453c.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/0a65d49e-88a7-46e0-a539-6e636a97453c.jpg" alt="Аура 90 см" />
+    <div class="product__meta">
+      <h3 class="h3">Аура 90 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">8289,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Александра 60х80 см"
+    data-desc="Прямоугольное зеркало отвечает эстетическому вкусу ценителей современной классики. При этом зеркало интерьерное будет отличным дополнением к любому интерьеру вашей комнаты, хоть это будет стиль лофт или минимализм, модерн или хай-тек. Также оно может использоваться как зеркало для туалетного столика, для макияжа, как гримерное зеркало для спальни или как зеркало для подвесной тумбы, консоли в прихожую."
+    data-price="4248,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/77e5452d-607c-46d8-9ad8-b5d41ad8079e.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/77e5452d-607c-46d8-9ad8-b5d41ad8079e.jpg" alt="Александра 60х80 см" />
+    <div class="product__meta">
+      <h3 class="h3">Александра 60х80 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">4248,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Аура золотая Ø 70 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="7748,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/3a7461fa-46d1-47de-ba64-c134851c6256.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/3a7461fa-46d1-47de-ba64-c134851c6256.jpg" alt="Аура золотая Ø 70 см" />
+    <div class="product__meta">
+      <h3 class="h3">Аура золотая Ø 70 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">7748,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Аура золотая Ø 80 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="8289,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/b648b4f1-b8c2-4bfc-afb1-8d39091ee73a.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/b648b4f1-b8c2-4bfc-afb1-8d39091ee73a.jpg" alt="Аура золотая Ø 80 см" />
+    <div class="product__meta">
+      <h3 class="h3">Аура золотая Ø 80 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">8289,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Аура золотая Ø 90 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="8849,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/7b7867a9-723e-4171-a86f-d0a87b38d83f.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/7b7867a9-723e-4171-a86f-d0a87b38d83f.jpg" alt="Аура золотая Ø 90 см" />
+    <div class="product__meta">
+      <h3 class="h3">Аура золотая Ø 90 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">8849,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Тайна Ø 70 см"
+    data-desc="Зеркало интерьерное настенное «Тайна». Размеры зеркала подвесного: основание — 80 см; зеркало — 74 см. Стильные мелочи интерьера помогают разнообразить оформление пространства. Большое зеркало может стать оригинальным акцентным, заметным штрихом в интерьере любой комнаты: для спальни, как зеркало для туалетного столика; для ванной комнаты, как гримерное зеркало; в прихожую — как зеркало для подвесной тумбы, консоли."
+    data-price="4948,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/37dddb75-f27b-4927-84f0-678c58cf528f.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/37dddb75-f27b-4927-84f0-678c58cf528f.jpg" alt="Тайна Ø 70 см" />
+    <div class="product__meta">
+      <h3 class="h3">Тайна Ø 70 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">4948,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="capsule" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Тайна овальная 110х73 см"
+    data-desc="Зеркало интерьерное настенное «Тайна». Размеры зеркала подвесного: основание — 80 см; зеркало — 74 см. Стильные мелочи интерьера помогают разнообразить оформление пространства. Большое зеркало может стать оригинальным акцентным, заметным штрихом в интерьере любой комнаты: для спальни, как зеркало для туалетного столика; для ванной комнаты, как гримерное зеркало; в прихожую — как зеркало для подвесной тумбы, консоли."
+    data-price="6798,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/416b962c-16a7-478d-9df8-a460abb6ff24.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/416b962c-16a7-478d-9df8-a460abb6ff24.jpg" alt="Тайна овальная 110х73 см" />
+    <div class="product__meta">
+      <h3 class="h3">Тайна овальная 110х73 см</h3>
+      <p class="muted">Овальные зеркала</p>
+      <div class="product__row">
+        <span class="pill">capsule</span>
+        <span class="price">6798,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Виола 70х70 см"
+    data-desc="Все интерьерные зеркала нашего бренда имеют отличительную черту — оригинальная форма и современный дизайн, а также отлично дополнят интерьер в любом стиле: современный, классический, лофт, винтаж, сканди. Также они собраны вручную из самых качественных материалов. Декоративное большое зеркало станет центром притяжения в оформлении дома, благодаря оригинальной раме из зеркальных элементов."
+    data-price="4048,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/c0bea33e-bb27-451e-8450-3f6d5f04fe4a.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/c0bea33e-bb27-451e-8450-3f6d5f04fe4a.jpg" alt="Виола 70х70 см" />
+    <div class="product__meta">
+      <h3 class="h3">Виола 70х70 см</h3>
+      <p class="muted">Квадратные зеркала</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">4048,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Грация 180х68 см"
+    data-desc="Все интерьерные зеркала нашего бренда имеют отличительную черту — оригинальная форма и современный дизайн, а также отлично дополнят интерьер в любом стиле: современный, классический, лофт, винтаж, сканди. Также они собраны вручную из самых качественных материалов. Декоративное большое зеркало станет центром притяжения в оформлении дома, благодаря оригинальной раме из зеркальных элементов."
+    data-price="4048,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/2441850f-5971-48f1-a4f1-965f9db86364.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/2441850f-5971-48f1-a4f1-965f9db86364.jpg" alt="Грация 180х68 см" />
+    <div class="product__meta">
+      <h3 class="h3">Грация 180х68 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">4048,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Диско Ø 70 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="9269,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/349f4d09-bad6-4867-8430-a4408d26ff4c.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/349f4d09-bad6-4867-8430-a4408d26ff4c.jpg" alt="Диско Ø 70 см" />
+    <div class="product__meta">
+      <h3 class="h3">Диско Ø 70 см</h3>
+      <p class="muted">Зеркальная мозаика</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">9269,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Фаберже 75х100"
+    data-desc="Изысканное круглое зеркало с отделкой из зеркальной мозаики не останется незамеченным в интерьере вашего дома. Качественное зеркальное полотно не искажает отражение, влагостойкое. Зеркало можно использовать не только по назначению, но и применять в качестве декоративного аксессуара. Подойдет для гостиной, для прихожей, для ванной комнаты, для спальни.Также зеркало роскошно украсит интерьер салона красоты, парикмахерской или фотостудии."
+    data-price="12998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/42608402-d30b-44a6-8257-abd098b872ec.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/42608402-d30b-44a6-8257-abd098b872ec.jpg" alt="Фаберже 75х100" />
+    <div class="product__meta">
+      <h3 class="h3">Фаберже 75х100</h3>
+      <p class="muted">Зеркальная мозаика</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">12998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round facet" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Диско Ø 80 см"
+    data-desc="Круглое настенное зеркало в раме из декоративных фацетных элементов преобразит пространство, наполнит его солнечными бликами и светом."
+    data-price="9269,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/be3decde-9883-458f-b7ec-15846735f326.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/be3decde-9883-458f-b7ec-15846735f326.jpg" alt="Диско Ø 80 см" />
+    <div class="product__meta">
+      <h3 class="h3">Диско Ø 80 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">9269,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Диско Ø 90 см"
+    data-desc="Зеркало «Диско» из зеркальной мозаики — стильный акцент для интерьера, отражающий свет десятками граней и создающий атмосферу яркости и уюта."
+    data-price="10189,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/93b1641a-6ec9-4289-8bd5-825612c8b622.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/93b1641a-6ec9-4289-8bd5-825612c8b622.jpg" alt="Диско Ø 90 см" />
+    <div class="product__meta">
+      <h3 class="h3">Диско Ø 90 см</h3>
+      <p class="muted">Зеркальная мозаика</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">10189,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Идиллия 60х110 см"
+    data-desc="Рисунок на зеркало интерьерное настенное нанесен с помощью алмазной гравировки, а это значит, что он не сотрется, и зеркало в прихожую в полный рост не потеряет первозданный вид с течением времени. Декоративное зеркало «Идиллия» будет отличным вариантом для дома, интерьерной студии, фотосалона, шоурума, салона красоты, ресторана и других пространств, где важна эстетика,комфорт и статус."
+    data-price="4148,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/63a34ba4-47d1-4695-a186-c4bcc1fb5f22.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/63a34ba4-47d1-4695-a186-c4bcc1fb5f22.jpg" alt="Идиллия 60х110 см" />
+    <div class="product__meta">
+      <h3 class="h3">Идиллия 60х110 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">4148,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Муза 110х60 см"
+    data-desc="Рисунок на зеркало интерьерное настенное нанесен с помощью алмазной гравировки, а это значит, что он не сотрется, и зеркало в прихожую в полный рост не потеряет первозданный вид с течением времени. Декоративное зеркало будет отличным вариантом для дома, интерьерной студии, фотосалона, шоурума, салона красоты, ресторана и других пространств, где важна эстетика,комфорт и статус."
+    data-price="3598,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/5dfa34fa-6e1a-452b-81df-589532d24e54.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/5dfa34fa-6e1a-452b-81df-589532d24e54.jpg" alt="Муза 110х60 см" />
+    <div class="product__meta">
+      <h3 class="h3">Муза 110х60 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">3598,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Оникс 60х90 см"
+    data-desc="Рисунок на зеркало интерьерное настенное нанесен с помощью алмазной гравировки, а это значит, что он не сотрется, и зеркало в прихожую в полный рост не потеряет первозданный вид с течением времени. Декоративное зеркало будет отличным вариантом для дома, интерьерной студии, фотосалона, шоурума, салона красоты, ресторана и других пространств, где важна эстетика,комфорт и статус."
+    data-price="2798,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/73fe0863-3106-47c6-8796-f8c6e379c620.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/73fe0863-3106-47c6-8796-f8c6e379c620.jpg" alt="Оникс 60х90 см" />
+    <div class="product__meta">
+      <h3 class="h3">Оникс 60х90 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">2798,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Фортуна Ø 90 см"
+    data-desc="Рисунок на зеркало интерьерное настенное нанесен с помощью алмазной гравировки, а это значит, что он не сотрется, и зеркало в прихожую в полный рост не потеряет первозданный вид с течением времени. Декоративное зеркало будет отличным вариантом для дома, интерьерной студии, фотосалона, шоурума, салона красоты, ресторана и других пространств, где важна эстетика,комфорт и статус."
+    data-price="5449,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/4bb86c7d-f8d8-46b7-8d5d-3e98fdf2d3f6.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/4bb86c7d-f8d8-46b7-8d5d-3e98fdf2d3f6.jpg" alt="Фортуна Ø 90 см" />
+    <div class="product__meta">
+      <h3 class="h3">Фортуна Ø 90 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">5449,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Каспер 60х110"
+    data-desc="Фигурное зеркало будет прекрасным украшением для вашего интерьера. Его размеры 110х60 см делают его прекрасным дополнением для ванны, прихожей, спальни, коридора или любой другой комнаты, создавая уютную атмосферу благодаря эффектной геометрии. Это красивое настенное зеркало для ванной легко устанавливается на стену, без рамы подходит для любого стиля интерьера – от лофт до минимализма."
+    data-price="3968,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/456ceba3-7554-4b53-a2ec-f4e519f0c379.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/456ceba3-7554-4b53-a2ec-f4e519f0c379.jpg" alt="Каспер 60х110" />
+    <div class="product__meta">
+      <h3 class="h3">Каспер 60х110</h3>
+      <p class="muted">Фигурные зеркала</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">3968,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Лотос 90х60 см"
+    data-desc="Фигурное зеркало будет прекрасным украшением для вашего интерьера. Его размеры 90х60 см делают его прекрасным дополнением для ванны, прихожей, спальни, коридора или любой другой комнаты, создавая уютную атмосферу благодаря эффектной геометрии. Это красивое настенное зеркало для ванной легко устанавливается на стену, без рамы подходит для любого стиля интерьера – от лофт до минимализма."
+    data-price="2549,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/2897ac02-17fb-4ee2-8195-08c01ab27159.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/2897ac02-17fb-4ee2-8195-08c01ab27159.jpg" alt="Лотос 90х60 см" />
+    <div class="product__meta">
+      <h3 class="h3">Лотос 90х60 см</h3>
+      <p class="muted">Фигурные зеркала</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">2549,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="round" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Мира Ø 70 см"
+    data-desc="Круглое зеркало будет прекрасным украшением для вашего интерьера. Его размеры 70 х 70 см делают его прекрасным дополнением для ванны, прихожей, спальни, коридора или любой другой комнаты, создавая уютную атмосферу благодаря эффектной геометрии. Это красивое настенное зеркало для ванной легко устанавливается на стену, без рамы подходит для любого стиля интерьера – от лофт до минимализма."
+    data-price="2549,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/80bb449e-e81c-4d1c-91b3-03843ba0e372.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/80bb449e-e81c-4d1c-91b3-03843ba0e372.jpg" alt="Мира Ø 70 см" />
+    <div class="product__meta">
+      <h3 class="h3">Мира Ø 70 см</h3>
+      <p class="muted">Круглые зеркала</p>
+      <div class="product__row">
+        <span class="pill">round</span>
+        <span class="price">2549,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Авангард 76х101 см"
+    data-desc=""
+    data-price="6998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/c7ebc6df-eb0a-4f34-bf1a-bf4ce7deeae6.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/c7ebc6df-eb0a-4f34-bf1a-bf4ce7deeae6.jpg" alt="Авангард 76х101 см" />
+    <div class="product__meta">
+      <h3 class="h3">Авангард 76х101 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">6998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="rect" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Классика 70х90 см"
+    data-desc=""
+    data-price="6998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/397a8a8b-9345-4d86-93cb-7324e3683569.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/397a8a8b-9345-4d86-93cb-7324e3683569.jpg" alt="Классика 70х90 см" />
+    <div class="product__meta">
+      <h3 class="h3">Классика 70х90 см</h3>
+      <p class="muted">Прямоугольные зеркала</p>
+      <div class="product__row">
+        <span class="pill">rect</span>
+        <span class="price">6998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+<article class="product reveal" data-tags="" style="transition-delay:280ms">
+  <button class="product__inner" data-product
+    data-title="Лабиринт 76х96 см"
+    data-desc="Зеркало с рамой из зеркальных элементов – это не только практичный и функциональный предмет интерьера, но и настоящее произведение искусства. Настенное зеркало в раме станет неотъемлемым элементом в многих помещениях, будь то гостиная, спальня или прихожая. Зеркало на стену «Лабиринт» может использоваться как зеркало в полный рост – это не только функционально, но и визуально преображает пространство. Благодаря лабиринту отражающих поверхностей зеркало настольное также способно расширить пространство и усилить естественный свет, что особенно важно в небольших помещениях."
+    data-price="8998,00 ₽"
+    data-img="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/699aa6ad-43ac-49a1-aa43-933a49c3c8a2.jpg">
+    <img src="https://274418.selcdn.ru/cv08300-33250f0d-0664-43fc-9dbf-9d89738d114e/uploads/731613/699aa6ad-43ac-49a1-aa43-933a49c3c8a2.jpg" alt="Лабиринт 76х96 см" />
+    <div class="product__meta">
+      <h3 class="h3">Лабиринт 76х96 см</h3>
+      <p class="muted">ЗD зеркала</p>
+      <div class="product__row">
+        <span class="pill">Товар</span>
+        <span class="price">8998,00 ₽</span>
+      </div>
+    </div>
+  </button>
+</article>
+        </div>
+
+        <div class="cta-banner reveal">
+          <div>
+            <h3 class="h3">Нужен нестандарт?</h3>
+            <p class="muted">Сделаем по вашему эскизу — вырез, полки, крепления, любое стекло.</p>
+          </div>
+          <a class="btn btn--primary" href="contacts.html#form">Получить расчёт</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <div class="footer__left">
+        <div class="logo logo--small"><span class="logo__mark"></span> MIRR.</div>
+        <p class="muted">Зеркала на заказ • Подсветка • Монтаж</p>
+      </div>
+      <div class="footer__right">
+        <a class="footer__link" href="contacts.html">Контакты</a>
+        <a class="footer__link" href="contacts.html#form">Рассчёт</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product modal -->
+  <div class="modal" data-modal="product" aria-hidden="true">
+    <div class="modal__overlay" data-close-modal></div>
+    <div class="modal__dialog modal__dialog--wide" role="dialog" aria-modal="true" aria-label="Детали товара">
+      <button class="modal__close" data-close-modal aria-label="Закрыть">✕</button>
+      <div class="product-modal">
+        <img class="product-modal__img" data-product-img alt="" />
+        <div class="product-modal__info">
+          <h3 class="h2" data-product-title></h3>
+          <p class="muted" data-product-desc></p>
+          <div class="product-modal__price" data-product-price></div>
+
+          <div class="product-modal__bullets">
+            <div class="bullet"><span>•</span><p>Любые размеры, точный замер</p></div>
+            <div class="bullet"><span>•</span><p>Опции: подсветка, фацет, оттенки</p></div>
+            <div class="bullet"><span>•</span><p>Монтаж: скрытый крепёж</p></div>
+          </div>
+
+          <a class="btn btn--primary btn--lg" href="contacts.html#form">Рассчитать этот вариант</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<style>
+:root{
+  --bg:#fbfbfc;
+  --panel:#ffffff;
+  --soft:#f4f2ef;
+  --text:#121418;
+  --muted:#6b7078;
+  --line:rgba(18,20,24,.10);
+
+  --primary:#1a1f2a;
+  --primary2:#2a3445;
+
+  --radius:22px;
+  --shadow: 0 20px 60px rgba(18,20,24,.08);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+   margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  color:var(--text);
+  background: linear-gradient(
+    120deg,
+    #f2f1ff,
+    #ecfbff,
+    #fdf7f0,
+    #eef2ff
+  );
+  background-size: 1000% 1000%;
+  animation: gradientFlow 18s ease infinite;
+  line-height:1.35;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:-20%;
+  z-index:-1;
+  background: radial-gradient(600px 600px at 20% 20%, rgba(180,190,255,.25), transparent 60%),
+    radial-gradient(700px 700px at 80% 30%, rgba(180,230,255,.22), transparent 65%),
+    radial-gradient(500px 500px at 50% 80%, rgba(255,220,200,.22), transparent 60%);
+  filter: blur(80px);
+  animation: floatGlow 24s ease-in-out infinite alternate;
+}
+
+
+img{max-width:100%; display:block}
+a{color:inherit; text-decoration:none}
+button{font:inherit}
+.container{width:min(1100px, calc(100% - 40px)); margin:0 auto}
+
+.h1{font-size: clamp(34px, 5vw, 56px); letter-spacing:-.03em; margin:0 0 10px;line-height: 1.2}
+.h2{font-size: clamp(26px, 3.5vw, 34px); letter-spacing:-.02em; margin:0;line-height: 1.2}
+.h3{font-size: 18px; margin:0 0 6px;line-height: 1.2}
+.lead{font-size: 16px; color:var(--muted); margin:0 0 18px; max-width: 52ch;line-height: 1.2}
+.muted{color:var(--muted);line-height: 1.2}
+.fineprint{font-size:12px; color:var(--muted); margin:10px 0 0;line-height: 1.2}
+
+.badge{
+  display:inline-flex; gap:10px;
+  padding:10px 14px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background: rgba(255,255,255,.55);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(18,20,24,.05);
+  margin-bottom: 14px;
+}
+
+.header{
+  position:sticky; top:0; z-index:50;
+  background: rgba(251,251,252,.65);
+  backdrop-filter: blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.header{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 20px;
+}
+.logo{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.04em}
+.logo__mark{
+  width:22px; height:22px; border-radius:8px;
+  background: linear-gradient(135deg, rgba(18,20,24,.08), rgba(18,20,24,.18));
+  border:1px solid var(--line);
+}
+.logo--small{opacity:.9}
+
+.nav{display:flex; gap:18px}
+.nav__link{
+  padding:10px 10px;
+  border-radius: 12px;
+  color: var(--muted);
+  transition: transform .2s ease, background .2s ease, color .2s ease;
+}
+.nav__link:hover{background: rgba(18,20,24,.04); color: var(--text); transform: translateY(-1px)}
+.nav__link.is-active{color:var(--text); background: rgba(18,20,24,.05)}
+
+.header__actions{display:flex; gap:10px; align-items:center}
+
+.btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  gap:10px;
+  padding:11px 14px;
+  border-radius: 16px;
+  border:1px solid transparent;
+  cursor:pointer;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+  user-select:none;
+}
+.btn--lg{padding:13px 16px; border-radius:18px}
+.btn--primary{
+  background: linear-gradient(180deg, var(--primary), var(--primary2));
+  color:#fff;
+  box-shadow: 0 18px 45px rgba(18,20,24,.18);
+}
+.btn--primary:hover{transform: translateY(-1px); box-shadow: 0 22px 58px rgba(18,20,24,.22)}
+.btn--ghost{
+  background: rgba(255,255,255,.55);
+  border-color: var(--line);
+  backdrop-filter: blur(10px);
+}
+.btn--ghost:hover{transform: translateY(-1px); background: rgba(255,255,255,.72)}
+
+.burger{
+  display:none;
+  width:44px; height:44px;
+  border-radius:16px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.55);
+  backdrop-filter: blur(10px);
+}
+.burger span{
+  display:block; width:18px; height:2px; background: var(--text);
+  margin:0 auto 5px;
+}
+.burger span:last-child{margin-bottom:0}
+
+.hero{padding: 44px 0 18px}
+.hero__grid{
+  display:grid; gap:28px;
+  grid-template-columns: 1.05fr .95fr;
+  align-items:center;
+}
+.hero__cta{display:flex; gap:12px; flex-wrap:wrap; margin: 10px 0 14px}
+
+.glass-card{
+  background: rgba(255,255,255,.55);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow:hidden;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+  transform: translateZ(0);
+}
+.glass-card img{aspect-ratio: 4/4; object-fit: cover}
+.glass-card__hint{
+  display:flex; gap:10px; flex-wrap:wrap;
+  padding:14px;
+  border-top:1px solid var(--line);
+}
+.glass-card__hint span{
+  font-size:12px;
+  padding:7px 10px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.6);
+}
+
+.trust{
+  display:flex; gap:14px; flex-wrap:wrap;
+  margin-top:10px;
+}
+.trust__item{
+  padding:12px 14px;
+  border:1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255,255,255,.55);
+  backdrop-filter: blur(10px);
+}
+.trust__num{font-weight:700; display:block}
+.trust__txt{font-size:12px; color:var(--muted)}
+
+.section{padding: 42px 0}
+.section--soft{background: linear-gradient(180deg, transparent, rgba(244,242,239,.65), transparent)}
+.section__head{margin-bottom: 16px}
+
+.cards{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:12px;
+}
+.card{
+  padding:16px;
+  border-radius: var(--radius);
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.62);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 40px rgba(18,20,24,.06);
+}
+
+.split{
+  display:grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap:16px;
+  align-items:start;
+}
+.steps{margin:14px 0 0; padding:0; list-style:none; display:grid; gap:10px}
+.steps li{
+  display:flex; gap:12px; align-items:center;
+  padding:12px 14px;
+  border-radius:18px;
+  background: rgba(255,255,255,.55);
+  border:1px solid var(--line);
+}
+.steps span{
+  width:34px; height:34px; border-radius:14px;
+  display:grid; place-items:center;
+  background: rgba(18,20,24,.05);
+  border:1px solid var(--line);
+  font-weight:700;
+}
+
+.quote{
+  padding:16px;
+  border-radius: var(--radius);
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.62);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow);
+}
+.quote__text{margin:0 0 8px; font-size:16px}
+.quote__meta{margin:0 0 16px; color:var(--muted); font-size:13px}
+
+.form{display:grid; gap:12px; margin-top:12px}
+.field span{display:block; font-size:12px; color:var(--muted); margin:0 0 6px}
+input, select, textarea{
+  width:100%;
+  padding:12px 12px;
+  border-radius: 16px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.75);
+  outline:none;
+  transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease;
+}
+input:focus, select:focus, textarea:focus{
+  border-color: rgba(26,31,42,.35);
+  box-shadow: 0 0 0 4px rgba(26,31,42,.08);
+}
+
+.grid4{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:12px;
+}
+.filters__search{
+  min-width: 220px;
+  flex: 1;
+  max-width: 420px;
+}
+.tile{
+  border-radius: var(--radius);
+  overflow:hidden;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.60);
+  box-shadow: 0 12px 42px rgba(18,20,24,.07);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.tile:hover{transform: translateY(-3px); box-shadow: 0 20px 60px rgba(18,20,24,.12)}
+.tile img{aspect-ratio: 4/3; object-fit:cover}
+.tile__meta{padding:14px; display:flex; justify-content:space-between; gap:10px}
+.tile__meta span{color:var(--muted); font-size:12px}
+
+.center{display:flex; justify-content:center}
+
+.footer{
+  padding: 26px 0 34px;
+  border-top:1px solid var(--line);
+  background: rgba(251,251,252,.70);
+  backdrop-filter: blur(14px);
+}
+.footer__row{display:flex; justify-content:space-between; align-items:center; gap:14px}
+.footer__right{display:flex; gap:14px}
+.footer__link{color:var(--muted)}
+.footer__link:hover{color:var(--text)}
+
+.page{padding-top: 8px}
+
+.filters{display:flex; gap:10px; flex-wrap:wrap; margin-bottom: 14px}
+.chip{
+  padding:10px 12px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.55);
+  cursor:pointer;
+  color:var(--muted);
+  transition: transform .2s ease, background .2s ease, color .2s ease;
+}
+.chip:hover{transform: translateY(-1px); color: var(--text)}
+.chip.is-active{color:var(--text); background: rgba(18,20,24,.06)}
+
+.catalog{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:12px;
+}
+.product__inner{
+  width:100%;
+  padding:0;
+  border:1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255,255,255,.60);
+  overflow:hidden;
+  cursor:pointer;
+  box-shadow: 0 12px 42px rgba(18,20,24,.07);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.product__inner:hover{transform: translateY(-3px); box-shadow: 0 20px 60px rgba(18,20,24,.12)}
+.product__inner img{aspect-ratio: 4/3; object-fit: cover}
+.product__meta{padding:14px}
+.product__row{display:flex; justify-content:space-between; align-items:center; margin-top:10px}
+.pill{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.65);
+}
+.price{font-weight:700}
+
+.cta-banner{
+  margin-top: 16px;
+  display:flex; justify-content:space-between; align-items:center; gap:12px;
+  padding:16px;
+  border-radius: var(--radius);
+  border:1px solid var(--line);
+  background: linear-gradient(135deg, rgba(255,255,255,.70), rgba(244,242,239,.70));
+  backdrop-filter: blur(12px);
+}
+
+.contact-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:12px;
+}
+.contact-list{display:grid; gap:10px; margin-top:12px}
+.contact-item{
+  display:flex; justify-content:space-between; gap:10px;
+  padding:12px 14px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background: rgba(255,255,255,.55);
+}
+.contact-item span{color:var(--muted); font-size:12px}
+.divider{height:1px; background: var(--line); margin:14px 0}
+
+.map__box{
+  height:280px;
+  border-radius: var(--radius);
+  border:1px dashed rgba(18,20,24,.18);
+  display:grid; place-items:center;
+  background: rgba(255,255,255,.45);
+}
+
+/* Floating CTA */
+.floating-cta{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 60;
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events:none;
+  transition: opacity .25s ease, transform .25s ease;
+}
+.floating-cta.is-visible{
+  opacity:1;
+  transform: translateY(0);
+  pointer-events:auto;
+}
+
+/* Modal */
+.modal{
+  position:fixed; inset:0; z-index:80;
+  display:none;
+}
+.modal.is-open{display:block}
+.modal__overlay{
+  position:absolute; inset:0;
+  background: rgba(18,20,24,.40);
+  backdrop-filter: blur(6px);
+}
+.modal__dialog{
+  position:relative;
+  width:min(820px, calc(100% - 28px));
+  margin: 60px auto;
+  padding:18px;
+  border-radius: var(--radius);
+  border:1px solid rgba(255,255,255,.20);
+  background: rgba(255,255,255,.78);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+.modal__dialog--wide{width:min(980px, calc(100% - 28px))}
+.modal__close{
+  position:absolute; right:12px; top:12px;
+  width:40px; height:40px;
+  border-radius: 16px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.70);
+  cursor:pointer;
+}
+.product-modal{display:grid; grid-template-columns: 1fr 1fr; gap:16px; align-items:start}
+.product-modal__img{width:100%; border-radius: var(--radius); border:1px solid var(--line); aspect-ratio: 4/3; object-fit:cover}
+.product-modal__price{font-weight:800; font-size:18px; margin: 10px 0 12px}
+.product-modal__bullets{display:grid; gap:8px; margin: 12px 0 16px}
+.bullet{display:flex; gap:10px; align-items:flex-start}
+.bullet span{margin-top:2px}
+
+/* Reveal animation */
+.reveal{
+  opacity:0;
+  transform: translateY(14px);
+  transition: opacity .7s ease, transform .7s ease;
+  will-change: transform, opacity;
+}
+.reveal.is-in{
+  opacity:1;
+  transform: translateY(0);
+}
+/* Bigger product modal */
+.modal__dialog--wide{
+  width: min(1200px, calc(100% - 40px)); /* было 980px */
+  margin: 40px auto;                     /* меньше отступ сверху */
+  padding: 24px;                         /* больше воздуха */
+  max-height: calc(100vh - 80px);
+  overflow: auto;                        /* если контента много */
+}
+
+/* Сделаем фото крупнее и не обрезать */
+.product-modal{
+  grid-template-columns: 1.3fr 1fr;      /* фото шире */
+  gap: 24px;
+  align-items: start;
+}
+
+.product-modal__img{
+  max-height: 72vh;                      /* большое фото */
+  height: auto;
+  object-fit: contain;                   /* чтобы не резало */
+  background: rgba(255,255,255,.6);
+}
+
+
+/* Responsive */
+@media (max-width: 980px){
+  .cards{grid-template-columns: repeat(1, 1fr)}
+  .catalog{grid-template-columns: repeat(1, 1fr)}
+  .grid4{grid-template-columns: repeat(2, 1fr)}
+  .hero__grid{grid-template-columns: 1fr}
+  .split{grid-template-columns: 1fr}
+  .product-modal{grid-template-columns: 1fr}
+}
+@media (max-width: 720px){
+  .nav{display:none}
+  .burger{display:inline-grid; place-items:center}
+  .header__actions .btn--ghost{display:none}
+  .contact-grid{grid-template-columns: 1fr}
+}
+@keyframes gradientFlow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes floatGlow{
+  0%   { transform: translateY(-4%) translateX(-3%); }
+  100% { transform: translateY(4%) translateX(3%); }
+}
+
+
+</style>
+<script>
+(() => {
+  const qs = (s, p = document) => p.querySelector(s);
+  const qsa = (s, p = document) => [...p.querySelectorAll(s)];
+
+  // Mobile burger: simply toggles nav visibility by adding a class on body
+  const burger = qs("[data-burger]");
+  if (burger) {
+    burger.addEventListener("click", () => {
+      document.body.classList.toggle("is-menu");
+      const nav = qs(".nav");
+      if (nav) nav.style.display = document.body.classList.contains("is-menu") ? "flex" : "";
+    });
+  }
+
+  // Reveal on scroll
+  const reveals = qsa(".reveal");
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add("is-in");
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => io.observe(el));
+
+  // Floating CTA shows after scroll a bit (conversion)
+  const floating = qs("[data-floating-cta]");
+  if (floating) {
+    const onScroll = () => {
+      const y = window.scrollY || document.documentElement.scrollTop;
+      floating.classList.toggle("is-visible", y > 520);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+  // Modals
+  const openModal = (name) => {
+    const m = qs(`[data-modal="${name}"]`);
+    if (!m) return;
+    m.classList.add("is-open");
+    m.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeModal = (modalEl) => {
+    modalEl.classList.remove("is-open");
+    modalEl.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  };
+
+  qsa("[data-open-modal]").forEach(btn => {
+    btn.addEventListener("click", () => openModal(btn.getAttribute("data-open-modal")));
+  });
+
+  qsa("[data-modal]").forEach(modal => {
+    qsa("[data-close-modal]", modal).forEach(el => {
+      el.addEventListener("click", () => closeModal(modal));
+    });
+  });
+
+  window.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    const open = qs(".modal.is-open");
+    if (open) closeModal(open);
+  });
+
+   // ===== helpers =====
+  const norm = (s) => (s || "").toString().toLowerCase();
+
+  const parseRuPrice = (s) => {
+    // "12 998,00 ₽" -> 12998.00
+    const cleaned = (s || "")
+      .toString()
+      .replace(/\s/g, "")
+      .replace(/[₽руб\.]/gi, "")
+      .replace(/,/g, ".");
+    const n = parseFloat(cleaned);
+    return Number.isFinite(n) ? n : null;
+  };
+
+  const formatRuPrice = (n) => {
+    return n.toLocaleString("ru-RU", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " ₽";
+  };
+
+  // Теги (внутренние) -> подписи (рус)
+  const TAG_LABEL = {
+    arch: "Арка",
+    round: "Круг",
+    capsule: "Капсула",
+    rect: "Прямоугольник",
+    led: "Подсветка",
+    facet: "Фацет"
+  };
+
+  const detectTags = ({ title, desc, category, existingTags }) => {
+    const t = norm(title);
+    const d = norm(desc);
+    const c = norm(category);
+    const base = new Set((existingTags || "").split(/\s+/).filter(Boolean));
+
+    // Форма
+    if (/(арка)/.test(t + " " + c)) base.add("arch");
+    if (/(круг|ø|диаметр)/.test(t + " " + c)) base.add("round");
+    if (/(капсул|овал)/.test(t + " " + c)) base.add("capsule");
+    if (/(прямоуг|прямоуголь|квадрат)/.test(t + " " + c)) base.add("rect");
+
+    // Опции
+    if (/(подсвет|led)/.test(t + " " + d + " " + c)) base.add("led");
+    if (/(фацет)/.test(t + " " + d + " " + c)) base.add("facet");
+
+    return [...base];
+  };
+const detectTypeTag = (title, desc) => {
+  const s = norm(title + " " + (desc || ""));
+  if (/(полка)/.test(s)) return "shelf";
+  if (/(панно)/.test(s)) return "panel";
+  if (/(подставк)/.test(s)) return "stand";
+  if (/(столик|стол)/.test(s)) return "table";
+  return "mirror";
+};
+
+const TYPE_LABEL = {
+  mirror: "Зеркала",
+  shelf: "Полки",
+  panel: "Панно",
+  stand: "Подставки",
+  table: "Столики"
+};
+
+  const updatePillRu = (pillEl, tags) => {
+    if (!pillEl) return;
+    // Приоритет: опции, затем форма
+    if (tags.includes("led")) return (pillEl.textContent = "Подсветка");
+    if (tags.includes("facet")) return (pillEl.textContent = "Фацет");
+    if (tags.includes("arch")) return (pillEl.textContent = "Арка");
+    if (tags.includes("round")) return (pillEl.textContent = "Круг");
+    if (tags.includes("capsule")) return (pillEl.textContent = "Капсула");
+    if (tags.includes("rect")) return (pillEl.textContent = "Прямоугольник");
+    const type = tags.find(t => ["mirror","shelf","panel","stand","table"].includes(t));
+pillEl.textContent = type ? (TYPE_LABEL[type] || "Товар") : "Товар";
+  };
+
+  // ===== 1) нормализуем теги и русские плашки + 2) поднимаем цены =====
+  const products = qsa(".product");
+  products.forEach((card) => {
+    const btn = qs("[data-product]", card);
+    const title = btn?.getAttribute("data-title") || qs(".h3", card)?.textContent || "";
+    const desc = btn?.getAttribute("data-desc") || "";
+    const category = qs(".muted", card)?.textContent || "";
+    const existingTags = (card.getAttribute("data-tags") || "").trim();
+
+    const tags = detectTags({ title, desc, category, existingTags });
+    const typeTag = detectTypeTag(title, desc);
+tags.push(typeTag);
+
+    card.setAttribute("data-tags", tags.join(" "));
+
+    // Русский pill вместо rect/round
+    const pill = qs(".pill", card);
+    updatePillRu(pill, tags);
+
+    // Цена * 2.5 (и в карточке, и в data-price для модалки)
+    const priceEl = qs(".price", card);
+    const raw = btn?.getAttribute("data-price") || priceEl?.textContent || "";
+    const n = parseRuPrice(raw);
+    if (n != null) {
+      const raised = n * 1.52;
+      const formatted = formatRuPrice(raised);
+      if (priceEl) priceEl.textContent = formatted;
+      if (btn) btn.setAttribute("data-price", formatted);
+    }
+  });
+
+    const filtersBox = qs("#filters") || qs(".filters");
+if (filtersBox && products.length) {
+  const searchInput = qs(".filters__search", filtersBox);
+
+  // Собираем теги, которые реально есть
+  const set = new Set();
+  products.forEach((p) => {
+    (p.getAttribute("data-tags") || "")
+      .split(/\s+/).filter(Boolean)
+      .forEach((t) => set.add(t));
+  });
+
+  // Только ТИП
+  const TYPE_ORDER = ["mirror","shelf","panel","stand","table"];
+  const TYPE_LABEL = {
+    mirror: "Зеркала",
+    shelf: "Полки",
+    panel: "Панно",
+    stand: "Подставки",
+    table: "Столики"
+  };
+
+  const makeRow = (title, keys, rowKey) => {
+    const row = document.createElement("div");
+    row.style.display = "flex";
+    row.style.gap = "10px";
+    row.style.flexWrap = "wrap";
+    row.dataset.row = rowKey;
+
+    const head = document.createElement("span");
+    head.className = "muted";
+    head.style.fontSize = "12px";
+    head.style.padding = "10px 2px";
+    head.textContent = title;
+    row.appendChild(head);
+
+    row.insertAdjacentHTML("beforeend",
+      `<button class="chip is-active" type="button" data-filter="${rowKey}:all">Все</button>`
+    );
+
+    keys.filter(k => set.has(k)).forEach((k) => {
+      row.insertAdjacentHTML("beforeend",
+        `<button class="chip" type="button" data-filter="${rowKey}:${k}">${TYPE_LABEL[k] || k}</button>`
+      );
+    });
+
+    return row;
+  };
+
+  // Удаляем всё, что было нарисовано ранее (строки), но оставляем input
+  filtersBox.querySelectorAll('[data-row]').forEach(n => n.remove());
+
+  const rowType = makeRow("Тип:", TYPE_ORDER, "type");
+  filtersBox.appendChild(rowType);
+
+  // Состояние: только тип + поиск
+  const state = { type: "all", q: "" };
+
+  const apply = () => {
+    const q = (state.q || "").toLowerCase().trim();
+
+    products.forEach((p) => {
+      const btn = qs("[data-product]", p);
+      const title = (btn?.getAttribute("data-title") || "").toLowerCase();
+      const desc  = (btn?.getAttribute("data-desc") || "").toLowerCase();
+
+      const tags = (p.getAttribute("data-tags") || "").split(/\s+/).filter(Boolean);
+      const okType = state.type === "all" || tags.includes(state.type);
+      const okQ = !q || (title + " " + desc).includes(q);
+
+      p.style.display = (okType && okQ) ? "" : "none";
+    });
+  };
+
+  // Кнопки только в строке type
+  qsa('.chip[data-filter]', rowType).forEach((ch) => {
+    ch.addEventListener("click", () => {
+      qsa(".chip", rowType).forEach(b => b.classList.remove("is-active"));
+      ch.classList.add("is-active");
+
+      const [, val] = (ch.dataset.filter || "").split(":");
+      state.type = val || "all";
+      apply();
+    });
+  });
+
+  // Поиск
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      state.q = searchInput.value;
+      apply();
+    });
+  }
+
+  apply();
+}
+
+
+
+  // Product modal content
+  qsa("[data-product]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const title = btn.getAttribute("data-title") || "";
+      const desc = btn.getAttribute("data-desc") || "";
+      const price = btn.getAttribute("data-price") || "";
+      const img = btn.getAttribute("data-img") || "";
+
+      const modal = qs('[data-modal="product"]');
+      if (!modal) return;
+
+      const t = qs("[data-product-title]", modal);
+      const d = qs("[data-product-desc]", modal);
+      const p = qs("[data-product-price]", modal);
+      const i = qs("[data-product-img]", modal);
+
+      if (t) t.textContent = title;
+      if (d) d.textContent = desc;
+      if (p) p.textContent = price;
+      if (i) { i.src = img; i.alt = title; }
+
+      openModal("product");
+    });
+  });
+
+  // Fake submit (replace with your backend / telegram bot / email service)
+  qsa("[data-form]").forEach(form => {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const btn = qs('button[type="submit"]', form);
+      if (btn) {
+        const old = btn.textContent;
+        btn.textContent = "Отправлено ✓";
+        btn.disabled = true;
+        setTimeout(() => {
+          btn.textContent = old;
+          btn.disabled = false;
+          form.reset();
+        }, 1600);
+      }
+    });
+  });
+  
+})();
+</script>
+</body>
+</html>
