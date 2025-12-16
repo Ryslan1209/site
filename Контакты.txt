@@ -1,5 +1,5 @@
-
-    <body>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,6 +7,7 @@
   <meta name="description" content="Оставьте заявку на расчет зеркала. Ответим быстро. Телефон, мессенджеры, адрес." />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+<body>
   <header class="header" data-header>
     <a class="logo" href="index.html" aria-label="На главную">
       <span class="logo__mark"></span> MIRR.
@@ -20,7 +21,7 @@
 
     <div class="header__actions">
       <a class="btn btn--primary" href="#form">Получить расчёт</a>
-      <button class="burger" data-burger aria-label="Открыть меню">
+      <button class="burger" data-burger aria-label="Открыть меню" aria-expanded="false">
         <span></span><span></span>
       </button>
     </div>
@@ -39,36 +40,26 @@
             <h2 class="h3">Связь</h2>
             <p class="muted">Телефон / мессенджеры</p>
 
-            <div class="card reveal">
-  <h2 class="h3">Связь</h2>
-  <p class="muted">Свяжитесь с нами удобным способом</p>
+            <div class="contact-list">
+              <a class="contact-item" href="tel:+79991234567">
+                <span>Телефон</span>
+                <strong>+7 999 123-45-67</strong>
+              </a>
 
-  <div class="contact-list">
-    <a class="contact-item" href="tel:+79991234567">
-      <span>Телефон</span>
-      <strong>+7 999 123-45-67</strong>
-    </a>
+              <a class="contact-item" href="https://t.me/your_username" target="_blank" rel="noopener">
+                <span>Telegram</span>
+                <strong>Написать</strong>
+              </a>
 
-    <a class="contact-item"
-       href="https://t.me/your_username"
-       target="_blank" rel="noopener">
-      <span>Telegram</span>
-      <strong>Написать</strong>
-    </a>
-
-    <a class="contact-item" href="mailto:info@yourdomain.ru">
-      <span>Email</span>
-      <strong>info@yourdomain.ru</strong>
-    </a>
-  </div>
-
-  <div class="divider"></div>
-  <p class="fineprint">Работаем по России. Отвечаем обычно в течение 15 минут.</p>
-</div>
-
+              <a class="contact-item" href="mailto:info@yourdomain.ru">
+                <span>Email</span>
+                <strong>info@yourdomain.ru</strong>
+              </a>
+            </div>
 
             <div class="divider"></div>
-            <p class="fineprint">Подставь реальные ссылки на мессенджеры и почту.</p>
+            <p class="fineprint">Работаем по России. Отвечаем обычно в течение 15 минут.</p>
+            <p class="fineprint">Подставьте реальные ссылки на мессенджеры и почту.</p>
           </div>
 
           <div class="card reveal" style="transition-delay:120ms" id="form">
@@ -89,14 +80,13 @@
               <label class="field">
                 <span>Что нужно?</span>
                 <select name="type" required>
-  <option value="" disabled selected>Что нужно?</option>
-  <option>Зеркало</option>
-  <option>Полка</option>
-  <option>Панно</option>
-  <option>Нестандартное изделие</option>
-  <option>Нужна консультация</option>
-</select>
-
+                  <option value="" disabled selected>Что нужно?</option>
+                  <option>Зеркало</option>
+                  <option>Полка</option>
+                  <option>Панно</option>
+                  <option>Нестандартное изделие</option>
+                  <option>Нужна консультация</option>
+                </select>
               </label>
 
               <label class="field">
@@ -110,18 +100,18 @@
           </div>
         </div>
 
-        <div class="map card reveal" style="margin-top:16px">
-          <div class="map__head">
-            <h2 class="h3">Адрес</h2>
+        <div class="card reveal" style="margin-top:16px">
+          <h2 class="h3">Адрес</h2>
+          <p class="muted">Если нужен офис или шоу-рум — вставьте карту и описание</p>
+          <div class="map__box" aria-hidden="true">
             <iframe
-  src="https://yandex.ru/map-widget/v1/?um=constructor%3AВАШ_ID_КАРТЫ"
-  width="100%"
-  height="280"
-  frameborder="0"
-  style="border-radius:22px;"
-  loading="lazy">
-</iframe>
-
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3AВАШ_ID_КАРТЫ"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border-radius:22px;"
+              loading="lazy">
+            </iframe>
           </div>
         </div>
       </div>
@@ -140,6 +130,7 @@
       </div>
     </div>
   </footer>
+
 <style>
 :root{
   --bg:#fbfbfc;
@@ -159,7 +150,7 @@
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
-   margin:0;
+  margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
   color:var(--text);
   background: linear-gradient(
@@ -235,6 +226,7 @@ button{font:inherit}
 }
 .nav__link:hover{background: rgba(18,20,24,.04); color: var(--text); transform: translateY(-1px)}
 .nav__link.is-active{color:var(--text); background: rgba(18,20,24,.05)}
+.nav__link{white-space:nowrap}
 
 .header__actions{display:flex; gap:10px; align-items:center}
 
@@ -275,6 +267,30 @@ button{font:inherit}
   margin:0 auto 5px;
 }
 .burger span:last-child{margin-bottom:0}
+
+/* Mobile nav layer */
+@media (max-width: 900px){
+  .nav{
+    position:fixed;
+    top:72px;
+    left:16px;
+    right:16px;
+    flex-direction:column;
+    padding:14px;
+    gap:8px;
+    background: rgba(255,255,255,.9);
+    backdrop-filter: blur(12px);
+    border:1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    display:none;
+  }
+  .burger{display:inline-grid; place-items:center}
+  .header__actions{gap:8px}
+  body.is-menu .nav{display:flex}
+  body.is-menu{overflow:hidden}
+  .nav__link{width:100%; text-align:center}
+}
 
 .hero{padding: 44px 0 18px}
 .hero__grid{
@@ -495,6 +511,7 @@ input:focus, select:focus, textarea:focus{
   border:1px dashed rgba(18,20,24,.18);
   display:grid; place-items:center;
   background: rgba(255,255,255,.45);
+  overflow:hidden;
 }
 
 /* Floating CTA */
@@ -571,13 +588,22 @@ input:focus, select:focus, textarea:focus{
   .grid4{grid-template-columns: repeat(2, 1fr)}
   .hero__grid{grid-template-columns: 1fr}
   .split{grid-template-columns: 1fr}
-  .product-modal{grid-template-columns: 1fr}
+  .contact-grid{grid-template-columns: 1fr}
 }
 @media (max-width: 720px){
-  .nav{display:none}
-  .burger{display:inline-grid; place-items:center}
   .header__actions .btn--ghost{display:none}
-  .contact-grid{grid-template-columns: 1fr}
+}
+@media (max-width: 640px){
+  .header{padding:12px 14px}
+  .cards{grid-template-columns: 1fr}
+  .catalog{grid-template-columns: 1fr}
+  .grid4{grid-template-columns: 1fr}
+  .container{width:min(1100px, calc(100% - 26px))}
+}
+@media (prefers-reduced-motion: reduce){
+  body{animation:none; background-size: auto}
+  body::before{animation:none}
+  .reveal{transition:none}
 }
 @keyframes gradientFlow {
   0%   { background-position: 0% 50%; }
@@ -595,13 +621,26 @@ input:focus, select:focus, textarea:focus{
   const qs = (s, p = document) => p.querySelector(s);
   const qsa = (s, p = document) => [...p.querySelectorAll(s)];
 
-  // Mobile burger: simply toggles nav visibility by adding a class on body
+  // Mobile burger with body lock and reset on resize
   const burger = qs("[data-burger]");
+  const nav = qs(".nav");
+  const toggleMenu = (force) => {
+    const open = force !== undefined ? force : !document.body.classList.contains("is-menu");
+    document.body.classList.toggle("is-menu", open);
+    document.body.style.overflow = open ? "hidden" : "";
+    if (burger) burger.setAttribute("aria-expanded", open ? "true" : "false");
+  };
   if (burger) {
-    burger.addEventListener("click", () => {
-      document.body.classList.toggle("is-menu");
-      const nav = qs(".nav");
-      if (nav) nav.style.display = document.body.classList.contains("is-menu") ? "flex" : "";
+    burger.addEventListener("click", () => toggleMenu());
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 900 && document.body.classList.contains("is-menu")) {
+        toggleMenu(false);
+      }
+    });
+  }
+  if (nav) {
+    nav.addEventListener("click", (e) => {
+      if (e.target.matches(".nav__link")) toggleMenu(false);
     });
   }
 
@@ -637,7 +676,7 @@ input:focus, select:focus, textarea:focus{
   const closeModal = (modalEl) => {
     modalEl.classList.remove("is-open");
     modalEl.setAttribute("aria-hidden", "true");
-    document.body.style.overflow = "";
+    document.body.style.overflow = document.body.classList.contains("is-menu") ? "hidden" : "";
   };
 
   qsa("[data-open-modal]").forEach(btn => {
@@ -654,50 +693,6 @@ input:focus, select:focus, textarea:focus{
     if (e.key !== "Escape") return;
     const open = qs(".modal.is-open");
     if (open) closeModal(open);
-  });
-
-  // Catalog filters
-  const chips = qsa("[data-filter]");
-  const products = qsa(".product");
-  if (chips.length && products.length) {
-    chips.forEach(ch => {
-      ch.addEventListener("click", () => {
-        chips.forEach(c => c.classList.remove("is-active"));
-        ch.classList.add("is-active");
-
-        const f = ch.getAttribute("data-filter");
-        products.forEach(p => {
-          const tags = (p.getAttribute("data-tags") || "").split(" ");
-          const show = (f === "all") || tags.includes(f);
-          p.style.display = show ? "" : "none";
-        });
-      });
-    });
-  }
-
-  // Product modal content
-  qsa("[data-product]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const title = btn.getAttribute("data-title") || "";
-      const desc = btn.getAttribute("data-desc") || "";
-      const price = btn.getAttribute("data-price") || "";
-      const img = btn.getAttribute("data-img") || "";
-
-      const modal = qs('[data-modal="product"]');
-      if (!modal) return;
-
-      const t = qs("[data-product-title]", modal);
-      const d = qs("[data-product-desc]", modal);
-      const p = qs("[data-product-price]", modal);
-      const i = qs("[data-product-img]", modal);
-
-      if (t) t.textContent = title;
-      if (d) d.textContent = desc;
-      if (p) p.textContent = price;
-      if (i) { i.src = img; i.alt = title; }
-
-      openModal("product");
-    });
   });
 
   // Fake submit (replace with your backend / telegram bot / email service)
@@ -720,3 +715,4 @@ input:focus, select:focus, textarea:focus{
 })();
 </script>
 </body>
+</html>
